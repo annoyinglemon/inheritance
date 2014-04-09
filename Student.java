@@ -12,9 +12,9 @@ public class Student extends Person
         super();
         stud_no = 0;
     }
-    public Student(String newName, int new_no){
+    public Student(String newName, int number){
         super(newName);
-        stud_no = new_no;
+        stud_no = number;
     }
     public void setStudNo(int new_no){
         stud_no = new_no;

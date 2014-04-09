@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Student()
-comment1.params=newName\ new_no
+comment1.params=newName\ number
 comment1.target=Student(java.lang.String,\ int)
 comment2.params=new_no
 comment2.target=void\ setStudNo(int)

@@ -11,8 +11,8 @@ public class InheritanceDemo
     {
         Student s1 = new Student();
 
-        s1.setName("John");
-        s1.setStudNo(1234);
+        s1.setName("Kurt");
+        s1.setStudNo(2010102097);
         s1.writeOutput();
     }
 }
