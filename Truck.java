@@ -12,8 +12,8 @@ public class Truck extends Vehicle
 
     public Truck(){
     super();
-    lc = 0;
-    tc = 0;
+    lc = 5;
+    tc = 5;
     }
     /*public Truck(String manufName1, double cylinder1, String owner1, double lc1, int tc1){
     super(manufName1, cylinder1, owner1);
