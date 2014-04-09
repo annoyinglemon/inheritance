@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Vehicle()
+comment1.params=newManuf\ newCyl\ newOwner
+comment1.target=void\ setVehicle(java.lang.String,\ double,\ java.lang.String)
+comment1.text=public\ Vehicle(String\ manufName1,\ double\ cylinder1,\ String\ owner1){\r\n\tmanufName\ \=\ manufName1;\r\n\tcylinder\ \=\ cylinder1;\r\n\towner\ \=\ owner1;\r\n}
+comment2.params=
+comment2.target=java.lang.String\ getManuf()
+comment3.params=
+comment3.target=double\ getCyl()
+comment4.params=
+comment4.target=java.lang.String\ getOwner()
+comment5.params=
+comment5.target=void\ writeOutput()
+comment6.params=otherVehicle
+comment6.target=boolean\ sameVehicle(Vehicle)
+numComments=7
