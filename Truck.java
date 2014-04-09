@@ -20,10 +20,10 @@ public class Truck extends Vehicle
     lc = lc1;
     tc = tc1;
     }*/
-    public void resetVehicle(String newManuf, double newCyl, String newOwner, double newLc, int newTc){
+    public void resetVehicle(String newManuf, double newCyl, String newOwner, double lc, int tc){
     setVehicle(newManuf, newCyl, newOwner);
-    lc = newLc;
-    tc = newTc;
+    this.lc = lc;
+    this.tc = tc;
     }
     public double getLc(){
     return lc;
@@ -33,8 +33,8 @@ public class Truck extends Vehicle
     }
     public void writeOutput(){
     super.writeOutput();
-    System.out.println("Load Capacity: "+lc);
-    System.out.println("Towing Capacity: "+tc);
+    System.out.println("Maximum Load Capacity: "+lc);
+    System.out.println("Maximum Towing Capacity: "+tc);
     }
     public boolean sameTruck(Truck otherTruck){
     return (this.sameVehicle(otherTruck) && (this.lc == otherTruck.lc) && (this.tc == otherTruck.tc));
