@@ -8,7 +8,7 @@
 public class VehicleDemo
 {
     
-    public static void main(String[] args){
+    public static void main(String[] arguments){
     Vehicle Pedicab = new Vehicle();
     Vehicle Tricycle = new Vehicle();
     Truck Isuzu = new Truck();
