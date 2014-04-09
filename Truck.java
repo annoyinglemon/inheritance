@@ -20,8 +20,8 @@ public class Truck extends Vehicle
     lc = lc1;
     tc = tc1;
     }*/
-    public void resetVehicle(String newManuf, double newCyl, String newOwner, double newLc, int newTc){
-    setVehicle(newManuf, newCyl, newOwner);
+    public void resetVehicle(String Manuf, double Cyl, String Owner, double newLc, int newTc){
+    setVehicle(Manuf, Cyl, Owner);
     lc = newLc;
     tc = newTc;
     }
