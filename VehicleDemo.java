@@ -19,8 +19,8 @@ public class VehicleDemo
     Tricycle.writeOutput();
     System.out.println();   //blank
 
-    Pedicab.setVehicle("BMX", 200.15, "TonyVanSantos");
-    Tricycle.setVehicle("Racal", 125.5, "KurtLemondCapatan");
+    Pedicab.setVehicle("BMX", 200.15, "HarleyDavidson");
+    Tricycle.setVehicle("Racal", 125.5, "kawasaki");
     Pedicab.writeOutput();
 
     System.out.println();   //blank

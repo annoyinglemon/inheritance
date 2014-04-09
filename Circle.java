@@ -25,12 +25,12 @@ public class Circle
         diameter = d;
     }
     
-    public static double area(double r){            
-        return (PI * r * r);
+    public static double area(double radius){            
+        return (PI * radius * radius);
     }
     
     public void showArea(){                    // nonstatic calling a static, direct call only,(default)
-        System.out.println("Area is " + area(diameter/2));      //nonstatic calling nonstatic is default
+        System.out.println("Area of your circle is " + area(diameter/2));      //nonstatic calling nonstatic is default
     }
     
     public static void areaDialog(){                
