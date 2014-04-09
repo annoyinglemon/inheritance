@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Truck()
+<<<<<<< HEAD
 comment1.params=Manuf\ Cyl\ Owner\ newLc\ newTc
+=======
+comment1.params=newManuf\ newCyl\ newOwner\ lc\ tc
+>>>>>>> origin/inheritance_v2.1
 comment1.target=void\ resetVehicle(java.lang.String,\ double,\ java.lang.String,\ double,\ int)
 comment1.text=public\ Truck(String\ manufName1,\ double\ cylinder1,\ String\ owner1,\ double\ lc1,\ int\ tc1){\r\n\ \ \ \ super(manufName1,\ cylinder1,\ owner1);\r\n\ \ \ \ lc\ \=\ lc1;\r\n\ \ \ \ tc\ \=\ tc1;\r\n}
 comment2.params=
